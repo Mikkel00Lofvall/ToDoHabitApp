@@ -21,3 +21,4 @@ Feature List
 - se transaktioner
 - registere nyt køb
 
+![App screenshot](images/screenshot.png)
