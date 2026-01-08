@@ -21,4 +21,9 @@ Feature List
 - se transaktioner
 - registere nyt køb
 
-![App screenshot](images/screenshot.png)
+![App screenshot](images/TaskPage.png)
+![App screenshot](images/TaskCompletedPage.png)
+![App screenshot](images/HabitPage.png)
+![App screenshot](images/HabitInspection.png)
+![App screenshot](images/BalancePage.png)
+![App screenshot](images/TransactionPage.png)
