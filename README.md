@@ -22,7 +22,7 @@ Feature List
 - registere nyt køb
 
 ![App screenshot](images/TaskPage.png)
-![App screenshot](images/TaskCompletedPage.png)
+![App screenshot](images/TaskCompletePage.png)
 ![App screenshot](images/HabitPage.png)
 ![App screenshot](images/HabitInspection.png)
 ![App screenshot](images/BalancePage.png)
