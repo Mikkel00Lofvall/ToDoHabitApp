@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground">
+
+    <!-- Balance display -->
+    <LinearLayout
+        android:id="@+id/allowance_balance_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/allowance_btn_new_purchase"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        >
+
+        <!-- Balance label -->
+        <TextView
+            android:id="@+id/allowance_tv_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorText"
+            android:gravity="center"/>
+
+        <!-- Balance amount -->
+        <TextView
+            android:id="@+id/allowance_tw_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$1,234.56"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/income_green"
+            android:gravity="center"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/allowance_btn_new_purchase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="New Purchase"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/allowance_bottom_buttons_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Bottom buttons container (Balance / Transactions) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/allowance_bottom_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Balance button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/allowance_btn_balance"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="Balance"
+            android:textSize="18sp"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/allowance_btn_transaction"
+            app:layout_constraintHorizontal_weight="1"/>
+
+        <!-- Transactions button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/allowance_btn_transaction"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="Transactions"
+            android:textSize="18sp"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/allowance_btn_balance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

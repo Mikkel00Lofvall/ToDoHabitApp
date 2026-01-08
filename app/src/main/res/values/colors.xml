@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="income_green">#2E7D32</color>
+    <color name="expense_red">#C62828</color>
+
+    <!-- Base App Colors -->
+    <color name="base_primary">#6200EE</color>
+    <color name="base_on_primary">#FFFFFF</color>
+
+    <color name="base_secondary">#03DAC5</color>
+    <color name="base_on_secondary">#000000</color>
+
+    <color name="base_background">#F5F5F5</color>
+
+    <color name="base_tab_selected">#6200EE</color>
+    <color name="base_tab_unselected">#E0E0E0</color>
+
+    <!-- Game Theme -->
+    <color name="game_primary">#1E88E5</color>
+    <color name="game_on_primary">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="game_secondary">#FFC107</color>
+    <color name="game_on_secondary">#000000</color>
+
+    <!-- Tab Colors -->
+    <color name="game_tab_selected">#1E88E5</color>
+    <color name="game_tab_unselected">#B0BEC5</color>
+    <color name="game_text_primary">#212121</color>
+
+    <!-- Background -->
+    <color name="game_background">#DDEEFF</color>
+
+    <!-- List Items -->s
+    <color name="game_list_item_1">#E3F2FD</color>
+    <color name="game_list_item_2">#BBDEFB</color>
+
+    <!-- Text -->
+    <color name="game_text_on_primary">#FF000001</color>
+</resources>

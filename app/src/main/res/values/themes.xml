@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.GameApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/game_primary</item>
+        <item name="colorOnPrimary">@color/game_on_primary</item>
+        <item name="colorSecondary">@color/game_secondary</item>
+        <item name="colorOnSecondary">@color/game_on_secondary</item>
+        <item name="tabSelectedColor">@color/game_tab_selected</item>
+        <item name="tabUnselectedColor">@color/game_tab_unselected</item>
+        <item name="tabTextSelected">@color/game_on_primary</item>
+        <item name="tabTextUnselected">@color/game_text_primary</item>
+        <item name="colorBackground">@color/game_background</item>
+        <item name="colorListItem1">@color/game_list_item_1</item>
+        <item name="colorListItem2">@color/game_list_item_2</item>
+        <item name="colorText">@color/game_text_on_primary</item>
+    </style>
+</resources>

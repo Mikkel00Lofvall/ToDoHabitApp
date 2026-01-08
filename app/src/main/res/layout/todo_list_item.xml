@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@drawable/item_bg">
+
+    <!-- Done/Not Done checkbox -->
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/todo_cb_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/checkbox_image_selector"
+        app:buttonTint="@drawable/checkbox_tint_selector"
+        android:background="@null"/>
+
+    <!-- Delete button -->
+    <ImageButton
+        android:id="@+id/todo_btn_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Delete"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/todo_tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sample ToDo"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@id/todo_cb_done"
+        app:layout_constraintEnd_toStartOf="@id/todo_btn_delete"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/todo_tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Task description here"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintStart_toStartOf="@id/todo_tv_title"
+        app:layout_constraintEnd_toEndOf="@id/todo_tv_title"
+        app:layout_constraintTop_toBottomOf="@id/todo_tv_title"/>
+
+    <!-- Reward -->
+    <TextView
+        android:id="@+id/todo_tv_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 100"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#388E3C"
+        app:layout_constraintStart_toStartOf="@id/todo_tv_title"
+        app:layout_constraintTop_toBottomOf="@id/todo_tv_description"/>
+
+    <!-- Creation time -->
+    <TextView
+        android:id="@+id/todo_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created: 12:30 PM"
+        android:textSize="12sp"
+        android:textColor="#888888"
+        app:layout_constraintEnd_toEndOf="@id/todo_tv_title"
+        app:layout_constraintTop_toBottomOf="@id/todo_tv_description"
+        app:layout_constraintStart_toEndOf="@id/todo_tv_reward"
+        android:layout_marginStart="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

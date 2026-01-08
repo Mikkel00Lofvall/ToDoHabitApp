@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tabSelectedColor" format="color" />
+    <attr name="tabUnselectedColor" format="color" />
+    <attr name="tabTextSelected" format="color" />
+    <attr name="tabTextUnselected" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorText" format="color"/>
+    <attr name="colorListItem1" format="color"/>
+    <attr name="colorListItem2" format="color"/>
+</resources>

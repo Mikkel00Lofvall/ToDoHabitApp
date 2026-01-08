@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_todo"
+        android:title="To Do"
+        android:icon="@drawable/baseline_check_circle_outline_24"/>
+
+    <item
+        android:id="@+id/nav_habit_tracking"
+        android:title="Habit Tracking"
+        android:icon="@drawable/outline_alarm_on_24"/>
+
+    <item
+        android:id="@+id/nav_allowance"
+        android:title="Allowance"
+        android:icon="@drawable/outline_account_balance_wallet_24"/>
+
+</menu>
