@@ -9,3 +9,15 @@ Den tredje side i appen fungerer som en lommepung, hvor man kan se den samlede m
 Her kan man også registrere nye køb, så man kan holde styr på, hvordan pengene bliver brugt. 
 I en separat fane på samme side kan man se alle de transaktioner, man har lavet, 
 hvilket giver et komplet overblik over både indtægter og udgifter.
+
+Feature List
+- Registere nye opgaver
+- Se aktive eller færdige opgaver
+- få beløning for opgaver
+- se vaner i en liste
+- registere ny vane
+- se en specifik vane i sin egen side, hvor man også se ens streak
+- se saldo
+- se transaktioner
+- registere nyt køb
+
